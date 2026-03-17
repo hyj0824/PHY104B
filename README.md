@@ -1,7 +1,5 @@
 # SUSTech PHY104B
 
-![LOGO](LOGO.png)
-
 2026 春季学期 基础物理实验报告
 
 ## 工作流
@@ -26,3 +24,8 @@ matplotlib + seaborn 绑图
     ▼
 typst 实验报告撰写
 ```
+
+## 相关文件
+
+- [template.typ](template.typ): 实验报告模板，通过 `report.with(...)` 中的参数来设置报告标题、姓名、学号等信息。
+- 使用 `uv` 来管理依赖。
